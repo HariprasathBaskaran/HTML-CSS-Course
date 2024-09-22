@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ##### Container ##### */
+
+.container {
+  /* width: 825px; */
+  margin: 40px auto;
+  position: relative;
+  width: 1200px;
+}
+
+.sub-container {
+  border: 5px solid #444;
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+/* ##### Product ##### */
+
+.product-title {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+.product-price {
+  font-size: 26px;
+  margin-bottom: 5px;
+  float: left;
+}
+
+#product-shipping {
+  text-transform: uppercase;
+  color: #444;
+  font-size: 12px;
+  margin-bottom: 20px;
+  float: right;
+}
+
+.product-content {
+  margin-bottom: 10px;
+  clear: both;
+}
+
+.product-details {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+#product-shipping,
+a:hover,
+.product-details,
+.product-price {
+  font-weight: bold;
+}
+
+/* ##### Button ##### */
+
+.cart-button {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  width: 100%;
+  margin: auto;
+}
+
+.cart-button:hover {
+  color: black;
+  background-color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  /* border: 0px */
+  border: 5px solid #444;
+}
+
+/* ##### A and li tags ##### */
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:link {
+  color: black;
+}
+
+li {
+  list-style: square;
+  margin-bottom: 5px;
+  margin-left: 25px;
+}
+
+/* ##### Different color and sale button ##### */
+
+.common-button {
+  margin-top: 20px;
+  width: 25px;
+  height: 25px;
+  border: 0;
+  margin-right: 10px;
+}
+
+.common-button:last-child {
+  margin-right: 0;
+}
+
+.button_1 {
+  background-color: black;
+}
+
+.button_2 {
+  background-color: rgb(16, 84, 187);
+}
+
+.button_3 {
+  background-color: rgb(152, 7, 7);
+}
+
+.button_4 {
+  background-color: rgb(188, 155, 5);
+}
+
+.button_5 {
+  background-color: rgb(46, 163, 7);
+}
+
+.button_6 {
+  background-color: rgb(91, 85, 5);
+}
+
+.sale-button {
+  background-color: red;
+  color: white;
+  border: 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 5px;
+  position: absolute;
+  top: -10px;
+  left: -20px;
+}
+
+/* ##### Float ##### */
+
+.image-section {
+  float: left;
+  width: 300px;
+  /* background-color: blue; */
+}
+
+.shipping-section {
+  width: 400px;
+  float: left;
+  margin-left: 20px;
+  /* background-color: orange; */
+}
+
+.product-section {
+  float: right;
+  width: 400px;
+  /* background-color: red; */
+}
+
+.product-section ul li {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.product-content {
+  font-size: 20px;
+}
